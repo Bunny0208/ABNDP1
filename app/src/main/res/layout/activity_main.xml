@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin_t1"
+        android:padding="@dimen/padding_left_t1"
+        android:text="@string/t1"
+        android:textColor="@color/colorText2"
+        android:textSize="@dimen/textSize_t1"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="fitStart"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/padding_end_t2"
+        android:paddingLeft="@dimen/padding_left_t2"
+        android:paddingRight="@dimen/padding_right_t2"
+        android:paddingStart="@dimen/padding_start_t2"
+        android:text="@string/t2"
+        android:textColor="@color/colorText1"
+        android:textSize="@dimen/textSize_t2"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:padding="@dimen/padding_t3"
+        android:text="@string/t3"
+        android:textColor="@color/colorText2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_t4"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:text="@string/t4"
+        android:textColorLink="@color/colorText1"
+        android:textSize="@dimen/textSize_t"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/ic_language_black_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_language_black_24dp"
+        android:text="@string/t5"
+        android:textColorLink="@color/colorText1"
+        android:textSize="@dimen/textSize_t"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_place_black_24dp"
+        android:onClick="map"
+        android:text="@string/t6"
+        android:textColor="@color/colorText1"
+        android:textSize="@dimen/textSize_t"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_access_time_black_24dp"
+        android:text="@string/t7"
+        android:textColor="@color/colorText1"
+        android:textSize="@dimen/textSize_t"
+        android:textStyle="bold" />
+</LinearLayout>
